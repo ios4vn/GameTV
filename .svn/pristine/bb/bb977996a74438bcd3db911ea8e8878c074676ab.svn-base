@@ -1,0 +1,1 @@
+link ../../../MWPhotoBrowser/MWPhotoBrowser/Classes/MWTapDetectingView.h

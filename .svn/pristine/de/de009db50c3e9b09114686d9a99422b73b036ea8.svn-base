@@ -1,0 +1,1 @@
+PODS_SHARETHIS_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MessageUI" -framework "QuartzCore" -framework "Security" -framework "Twitter" -weak_framework "Accounts" -weak_framework "AdSupport" -weak_framework "Social"

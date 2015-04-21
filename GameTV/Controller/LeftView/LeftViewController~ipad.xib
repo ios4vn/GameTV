@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftViewController">
+            <connections>
+                <outlet property="headerTableView" destination="EQe-HX-ubb" id="5eB-JD-Bqu"/>
+                <outlet property="tableView" destination="K70-gy-7XW" id="IfK-br-CbP"/>
+                <outlet property="view" destination="vcd-vD-y5U" id="p50-He-7IG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="EQe-HX-ubb">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sidebar_bg_avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="8tY-fa-oT0">
+                    <rect key="frame" x="242" y="16" width="80" height="80"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_gray.png" translatesAutoresizingMaskIntoConstraints="NO" id="EfP-hg-Z9M">
+                    <rect key="frame" x="242" y="16" width="80" height="80"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rz9-ly-iTO">
+                    <rect key="frame" x="232" y="109" width="100" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <state key="normal" title="Đăng nhập" backgroundImage="sidebar_btn_round.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="334" y="20"/>
+        </view>
+        <view contentMode="scaleToFill" id="vcd-vD-y5U">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.49999999999999961" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5aI-ZL-NKk">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sidebar_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="beZ-vl-FU2">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="K70-gy-7XW">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="AA7-IC-LB5"/>
+                        <outlet property="delegate" destination="-1" id="iag-EW-eWc"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="beZ-vl-FU2" secondAttribute="trailing" id="2cq-cM-jed"/>
+                <constraint firstItem="K70-gy-7XW" firstAttribute="leading" secondItem="vcd-vD-y5U" secondAttribute="leading" id="5FM-EC-q4K"/>
+                <constraint firstItem="K70-gy-7XW" firstAttribute="top" secondItem="vcd-vD-y5U" secondAttribute="top" id="Chp-hz-vRQ"/>
+                <constraint firstAttribute="trailing" secondItem="K70-gy-7XW" secondAttribute="trailing" id="NWC-5U-o0Q"/>
+                <constraint firstAttribute="bottom" secondItem="K70-gy-7XW" secondAttribute="bottom" constant="49" id="Ssa-eu-cdV"/>
+                <constraint firstItem="beZ-vl-FU2" firstAttribute="top" secondItem="vcd-vD-y5U" secondAttribute="top" id="Xnn-FK-XHJ"/>
+                <constraint firstItem="beZ-vl-FU2" firstAttribute="leading" secondItem="vcd-vD-y5U" secondAttribute="leading" id="fG6-Ly-O6A"/>
+                <constraint firstAttribute="bottom" secondItem="beZ-vl-FU2" secondAttribute="bottom" id="rpA-hJ-OTZ"/>
+            </constraints>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="193" y="344"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_gray.png" width="98" height="40"/>
+        <image name="sidebar_bg.png" width="320" height="945"/>
+        <image name="sidebar_bg_avatar.png" width="80" height="80"/>
+        <image name="sidebar_btn_round.png" width="86" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,115 @@
+//
+//  SelectorController.m
+//  TabbedExample
+//
+//  Created by Tom Adriaenssen on 03/02/12.
+//  Copyright (c) 2012 Adriaenssen BVBA. All rights reserved.
+//
+
+#import "LeftViewController.h"
+#import "IIViewDeckController.h"
+#import "MenuCell.h"
+#import "HeaderMenu.h"
+
+@implementation LeftViewController
+
+#pragma mark - Table view data source
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    self.tableView.tableHeaderView = _headerTableView;
+    self.urlGetNews = @"sidebarcategory";
+    [self reloadNews];
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return [self.arrayNews count];
+    }
+    return 4;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 30.0;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    HeaderMenu *header;
+    NSArray *xibArray = [[NSBundle mainBundle] loadNibNamed:@"HeaderMenu" owner:nil options:nil];
+    for (id xibObject in xibArray) {
+        if ([xibObject isKindOfClass:[HeaderMenu class]]) {
+            header = (HeaderMenu *)xibObject;
+        }
+    }
+    return header;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.viewDeckController openLeftViewAnimated:NO];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"MenuCell";
+    MenuCell *cell = (MenuCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (!cell) {
+        NSArray *nibArray = [[NSBundle mainBundle] loadNibNamed:@"MenuCell" owner:nil options:nil];
+        for (id obj in nibArray) {
+            if ([obj isMemberOfClass:[MenuCell class]]) {
+                // Assign cell to obj
+                cell = (MenuCell *)obj;
+                break;
+            }
+        }
+    }
+
+    if (indexPath.section == 0) {
+        NSDictionary *category = [self.arrayNews objectAtIndex:indexPath.row];
+        cell.tittle = [category objectForKey:@"name"];
+        cell.imageType = [category objectForKey:@"avatar"];
+    }
+    else{
+        switch (indexPath.row) {
+            case 0:
+                cell.tittle = @"Ứng dụng liên quan";
+                cell.imageType = @"sidebar_ungdung";
+                break;
+            case 1:
+                cell.tittle = @"Thông tin liên hệ";
+                cell.imageType = @"sidebar_info";
+                break;
+            case 2:
+                cell.tittle = @"Đánh giá ứng dụng";
+                cell.imageType = @"sidebar_danhgia";
+                break;
+            case 3:
+                cell.tittle = @"Góp ý & báo lỗi";
+                cell.imageType = @"sidebar_gopy";
+                break;
+                
+            default:
+                break;
+        }
+    }
+
+    return cell;
+}
+
+#pragma mark - Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.viewDeckController closeLeftViewBouncing:^(IIViewDeckController *controller) {
+
+    }];
+}
+
+@end

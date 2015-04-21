@@ -1,0 +1,29 @@
+//
+// Prefix header for all source files of the 'TabbedExample' target in the 'TabbedExample' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "StandarViewController.h"
+#import "HTCollectionViewController.h"
+
+#define SharedAppDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+#define kDomain         @"http://gametv.vn/api?act="
+#define kDomainPost     @"http://uclip.vn/appincoming.php"
+#define kDomainImage    @"http://uclip.vn"
+#define kPageNumber     0
+#define kPageSize       20
+#define kOsVersion      [[[UIDevice currentDevice]systemVersion]floatValue]
+#define kSwitchTime     5
+#endif
+
+
+#define tabbed ((AppDelegate*)[[UIApplication sharedApplication] delegate])
