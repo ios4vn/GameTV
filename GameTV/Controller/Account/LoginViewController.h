@@ -31,4 +31,6 @@
 -(BOOL)validateForm;
 -(void)showSignUpForm;
 
+-(IBAction)enterNoLogin:(id)sender;
+
 @end

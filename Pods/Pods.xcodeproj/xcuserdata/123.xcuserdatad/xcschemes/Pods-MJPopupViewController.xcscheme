@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E904A4873B64EA96E404024"
+               BlueprintIdentifier = "DE907604A2323338A4203050"
                BuildableName = "libPods-MJPopupViewController.a"
                BlueprintName = "Pods-MJPopupViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

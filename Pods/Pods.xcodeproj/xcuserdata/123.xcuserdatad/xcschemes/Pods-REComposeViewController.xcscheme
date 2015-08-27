@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D28ABA9D7FF942639F0ABFCF"
+               BlueprintIdentifier = "83C6374FD8FA48F7EEBD0C93"
                BuildableName = "libPods-REComposeViewController.a"
                BlueprintName = "Pods-REComposeViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

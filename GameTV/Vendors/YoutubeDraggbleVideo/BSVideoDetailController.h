@@ -12,6 +12,7 @@
 #import "ShowPageCell.h"
 #import "SetCell.h"
 #import "Channel.h"
+#import "StandarViewController.h"
 
 @protocol RemoveViewDelegate
 - (void)removeController;
@@ -25,7 +26,7 @@ typedef NS_ENUM(NSUInteger, UIPanGestureRecognizerDirection) {
     UIPanGestureRecognizerDirectionRight
 };
 
-@interface BSVideoDetailController : UIViewController<UIGestureRecognizerDelegate,UITextViewDelegate,UIWebViewDelegate,SetCellDelegate>{
+@interface BSVideoDetailController : StandarViewController<UIGestureRecognizerDelegate,UITextViewDelegate,UIWebViewDelegate,SetCellDelegate>{
     
     IBOutlet UISlider *movieTimeControl;
     IBOutlet UIActivityIndicatorView *loadingIndicator;

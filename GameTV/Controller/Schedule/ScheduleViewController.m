@@ -20,17 +20,6 @@
     self.urlGetNews = @"schedule";
     [self reloadNews];
 }
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    
-//    UIImageView *logoHome;
-//    
-//    logoHome = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 36, 42)];
-//    
-//    
-//    logoHome.image = [UIImage imageNamed:@"icon_game_header"];
-//    self.navigationItem.titleView = logoHome;
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6BBC19B409F674191D163F0"
+               BlueprintIdentifier = "C965A6C0E56D19CA04274286"
                BuildableName = "libPods-UAModalPanel.a"
                BlueprintName = "Pods-UAModalPanel"
                ReferencedContainer = "container:Pods.xcodeproj">

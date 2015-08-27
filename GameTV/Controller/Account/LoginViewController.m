@@ -37,7 +37,7 @@ UITextField *_textField;
     [super viewDidLoad];
     self.headerTitle = @"Đăng nhập";
     tableView.tableFooterView = footerView;
-    tableView.tableHeaderView = headerView;
+    tableView.tableHeaderView = self.bannerView;
     
     UIColor *backGroundColor = [[UIColor alloc]initWithRed:1.0 green:1.0 blue:1.0  alpha:0.1];
     UIView *bview = [[UIView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width)];
@@ -46,6 +46,29 @@ UITextField *_textField;
     [tableView setBackgroundView:bview];
     
     isRememberPassword = YES;
+    NSString *urlRequest = [NSString stringWithFormat:@"%@getads",kDomain];
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:urlRequest parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+
+        NSArray *ads = [responseObject objectForKey:@"data"];
+        SharedAppDelegate.customAds = ads;
+//        SharedAppDelegate.adUnitID = [[responseObject objectForKey:@"admobkey"] objectForKey:@"ios"];
+        SharedAppDelegate.adUnitID = kAdmobKey;
+        NSDictionary *ad = [ads objectAtIndex:0];
+
+        if ([[ad objectForKey:@"type"] isEqualToString:@"admob"]){
+            SharedAppDelegate.adsType = AdsTypeGoogle;
+            [self showAds:AdsTypeGoogle];
+        }
+        else{
+            SharedAppDelegate.adsType = AdsTypeCustom;
+            [self showAds:AdsTypeCustom];
+        }
+
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+    }];
     
 }
 
@@ -90,7 +113,9 @@ UITextField *_textField;
 
         [self dismissViewControllerAnimated:YES completion:nil];
         
-    } fail:nil];
+    } fail:^(id responseObject) {
+        [self dismissViewControllerAnimated:YES completion:nil];        
+    }];
 
 }
 
@@ -179,4 +204,7 @@ UITextField *_textField;
 
 }
 
+-(IBAction)enterNoLogin:(id)sender{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

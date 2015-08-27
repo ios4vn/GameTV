@@ -296,6 +296,10 @@ THE SOFTWARE.
    limitations under the License.
 
 
+## Google-Mobile-Ads-SDK
+
+Copyright 2011 Google Inc. All Rights Reserved.
+
 ## INSPullToRefresh
 
 The MIT License (MIT)

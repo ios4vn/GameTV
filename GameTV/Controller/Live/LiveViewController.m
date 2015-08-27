@@ -32,7 +32,6 @@
 }
 
 
-
 //-(void)reloadNews{
 //    
 //    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];

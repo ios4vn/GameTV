@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1BC72578F2F57F364EA2C571"
+               BlueprintIdentifier = "286D7A9B7C742D17B084B45D"
                BuildableName = "libPods-cocoa-oauth.a"
                BlueprintName = "Pods-cocoa-oauth"
                ReferencedContainer = "container:Pods.xcodeproj">

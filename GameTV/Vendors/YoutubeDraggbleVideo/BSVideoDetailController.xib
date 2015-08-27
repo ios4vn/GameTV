@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSVideoDetailController">
             <connections>
+                <outlet property="bannerView" destination="YJG-rE-dJK" id="8V9-yn-Nfu"/>
                 <outlet property="btnDown" destination="OQ9-47-MyK" id="OrW-9R-ynW"/>
                 <outlet property="currentTime" destination="riV-7T-5qV" id="tP3-jJ-dwo"/>
                 <outlet property="fullScreenBtn" destination="paE-SC-18Z" id="8Ba-HR-pbV"/>
@@ -172,7 +173,7 @@
             <point key="canvasLocation" x="210" y="206"/>
         </view>
         <view contentMode="scaleToFill" id="84b-j1-E0K">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ase-is-jdi">
@@ -189,6 +190,11 @@
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" id="YJG-rE-dJK">
+                    <rect key="frame" x="0.0" y="81" width="320" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>

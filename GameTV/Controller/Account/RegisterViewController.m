@@ -34,6 +34,7 @@ UITextField *_textField;
     self.headerTitle = @"Đăng ký";
     [super viewDidLoad];
     tableView.tableFooterView = footerView;
+    tableView.tableHeaderView = self.bannerView;
     
     UIColor *backGroundColor = [[UIColor alloc]initWithRed:1.0 green:1.0 blue:1.0  alpha:0.1];
     UIView *bview = [[UIView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width)];
@@ -89,9 +90,28 @@ UITextField *_textField;
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:kLiveUrl parameters:[params addToken] success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON register : %@", responseObject);
-        [[[OLGhostAlertView alloc] initWithTitle:[responseObject objectForKey:@"mss"]] show];
-        if ([[responseObject objectForKey:@"status"] intValue] == 200) {
+        if ([[responseObject objectForKey:@"status"] intValue] == 0) {
+            NSDictionary *user = [responseObject objectForKey:@"data"];
+            NSLog(@"user info is %@",user);
+            SharedAppDelegate.user.uid = [[user objectForKey:@"id"] intValue];
+            SharedAppDelegate.user.ipAddress = [user objectForKey:@"ip_address"];
+            SharedAppDelegate.user.isLogin = YES;
+            SharedAppDelegate.user.email = [user objectForKey:@"email"];
+            SharedAppDelegate.user.username = [user objectForKey:@"telephone"];
+            SharedAppDelegate.user.fCoin = [[user objectForKey:@"fcoin"] intValue];
+            SharedAppDelegate.user.password = password.text;
+            SharedAppDelegate.user.token = [user objectForKey:@"member_key"];
+            SharedAppDelegate.user.joinDate = [NSDate dateWithTimeIntervalSince1970:[[user objectForKey:@"join_date"] intValue]];
+            NSUserDefaults *standardUserDefaults = [NSUserDefaults standardUserDefaults];
+            [standardUserDefaults setObject:SharedAppDelegate.user.username forKey:@"UserName"];
+            [standardUserDefaults setObject:SharedAppDelegate.user.password forKey:@"Password"];
+            [standardUserDefaults setObject:SharedAppDelegate.user.displayname forKey:@"PhoneNumber"];
             
+            [standardUserDefaults synchronize];
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }
+        else{
+            [[[OLGhostAlertView alloc] initWithTitle:[responseObject objectForKey:@"mss"]] show];
         }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);

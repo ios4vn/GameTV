@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F720DE578C950A767E22839"
+               BlueprintIdentifier = "69F4285E2F66187CFCE8840B"
                BuildableName = "libPods-APLExpandableCollectionView.a"
                BlueprintName = "Pods-APLExpandableCollectionView"
                ReferencedContainer = "container:Pods.xcodeproj">

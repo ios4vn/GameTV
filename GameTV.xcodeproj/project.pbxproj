@@ -73,10 +73,14 @@
 		ECB4A6B01AD50FFD005CEB2E /* BSVideoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A6AF1AD50FFD005CEB2E /* BSVideoDetailController.m */; };
 		ECB4A6B41AD510C9005CEB2E /* BSVideoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB4A6B31AD510C9005CEB2E /* BSVideoDetailController.xib */; };
 		ECB4A6B81AD51BF2005CEB2E /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A6B71AD51BF2005CEB2E /* Video.m */; };
+		ECCBF80F1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCBF80D1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png */; };
+		ECCBF8101AE8A81A004A6A15 /* btn_dangnhapfb.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCBF80E1AE8A81A004A6A15 /* btn_dangnhapfb.png */; };
 		ECCF3DE51AD7BDB800E9FE9B /* MyPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCF3DE41AD7BDB800E9FE9B /* MyPlayerLayerView.m */; };
 		ECCF3DE81AD7BF0700E9FE9B /* SinglePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCF3DE71AD7BF0700E9FE9B /* SinglePlayer.m */; };
 		ECCF3DEA1AD7BF2D00E9FE9B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCF3DE91AD7BF2D00E9FE9B /* MediaPlayer.framework */; };
 		ECCF3DEC1AD7BF6200E9FE9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCF3DEB1AD7BF6200E9FE9B /* AVFoundation.framework */; };
+		ECDF7F0A1B01E6A0005AF75A /* CustomAds.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDF7F091B01E6A0005AF75A /* CustomAds.m */; };
+		ECDF7F0C1B01E6B3005AF75A /* CustomAds.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDF7F0B1B01E6B3005AF75A /* CustomAds.xib */; };
 		ECDFD8341ADF57FD001DDA7F /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDFD8331ADF57FD001DDA7F /* Channel.m */; };
 		ECDFD8381ADF6437001DDA7F /* Clock.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDFD8361ADF6437001DDA7F /* Clock.png */; };
 		ECDFD8391ADF6437001DDA7F /* Clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDFD8371ADF6437001DDA7F /* Clock@2x.png */; };
@@ -353,12 +357,17 @@
 		ECB4A6B31AD510C9005CEB2E /* BSVideoDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSVideoDetailController.xib; sourceTree = "<group>"; };
 		ECB4A6B61AD51BF2005CEB2E /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		ECB4A6B71AD51BF2005CEB2E /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		ECCBF80D1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_dangnhapfb@2x.png"; sourceTree = "<group>"; };
+		ECCBF80E1AE8A81A004A6A15 /* btn_dangnhapfb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_dangnhapfb.png; sourceTree = "<group>"; };
 		ECCF3DE31AD7BDB800E9FE9B /* MyPlayerLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayerLayerView.h; sourceTree = "<group>"; };
 		ECCF3DE41AD7BDB800E9FE9B /* MyPlayerLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayerLayerView.m; sourceTree = "<group>"; };
 		ECCF3DE61AD7BF0700E9FE9B /* SinglePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayer.h; sourceTree = "<group>"; };
 		ECCF3DE71AD7BF0700E9FE9B /* SinglePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayer.m; sourceTree = "<group>"; };
 		ECCF3DE91AD7BF2D00E9FE9B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		ECCF3DEB1AD7BF6200E9FE9B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ECDF7F081B01E6A0005AF75A /* CustomAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAds.h; sourceTree = "<group>"; };
+		ECDF7F091B01E6A0005AF75A /* CustomAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAds.m; sourceTree = "<group>"; };
+		ECDF7F0B1B01E6B3005AF75A /* CustomAds.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAds.xib; sourceTree = "<group>"; };
 		ECDFD8321ADF57FD001DDA7F /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
 		ECDFD8331ADF57FD001DDA7F /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
 		ECDFD8361ADF6437001DDA7F /* Clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock.png; sourceTree = "<group>"; };
@@ -771,6 +780,8 @@
 		EC90FB431ADCC824007528BC /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				ECCBF80D1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png */,
+				ECCBF80E1AE8A81A004A6A15 /* btn_dangnhapfb.png */,
 				ECDFD8401ADF7706001DDA7F /* check.png */,
 				ECDFD8411ADF7706001DDA7F /* check@2x.png */,
 				EC90FB441ADCC833007528BC /* input_form.png */,
@@ -808,6 +819,16 @@
 				ECCF3DE41AD7BDB800E9FE9B /* MyPlayerLayerView.m */,
 			);
 			path = PlayVideo;
+			sourceTree = "<group>";
+		};
+		ECDF7F071B01E655005AF75A /* CustomAd */ = {
+			isa = PBXGroup;
+			children = (
+				ECDF7F081B01E6A0005AF75A /* CustomAds.h */,
+				ECDF7F091B01E6A0005AF75A /* CustomAds.m */,
+				ECDF7F0B1B01E6B3005AF75A /* CustomAds.xib */,
+			);
+			name = CustomAd;
 			sourceTree = "<group>";
 		};
 		ECDFD8351ADF63EF001DDA7F /* Schedule */ = {
@@ -985,6 +1006,7 @@
 		ECE273341ACF7E7000F126B5 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				ECDF7F071B01E655005AF75A /* CustomAd */,
 				EC1F18031AD38FFE00FB431A /* MenuHeader */,
 				EC1F17FD1AD38BE100FB431A /* TabbleCell */,
 				EC1F17E91AD2394E00FB431A /* Tabbar */,
@@ -1334,6 +1356,7 @@
 				ECE273031ACF7DDC00F126B5 /* SearchViewController.xib in Resources */,
 				ECE273EE1ACF88D200F126B5 /* time_black@2x.png in Resources */,
 				ECE273DD1ACF88C600F126B5 /* sidebar_ungdung@2x.png in Resources */,
+				ECCBF80F1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png in Resources */,
 				EC90FB561ADCC833007528BC /* login_checkbox.png in Resources */,
 				ECE273641ACF889700F126B5 /* btn_tabbar_center.png in Resources */,
 				ECE273511ACF86AA00F126B5 /* LeftViewController.xib in Resources */,
@@ -1401,6 +1424,8 @@
 				ECE273871ACF88B200F126B5 /* icon_game_header_copy.png in Resources */,
 				ECE273941ACF88B200F126B5 /* icon_view@2x.png in Resources */,
 				ECE273C51ACF88C600F126B5 /* sidebar_fifa@2x.png in Resources */,
+				ECCBF8101AE8A81A004A6A15 /* btn_dangnhapfb.png in Resources */,
+				ECDF7F0C1B01E6B3005AF75A /* CustomAds.xib in Resources */,
 				ECE273FC1ACF88EA00F126B5 /* player_expan.png in Resources */,
 				ECE273E71ACF88D200F126B5 /* tab_active.png in Resources */,
 				ECDFD83C1ADF6462001DDA7F /* linegiaitri.png in Resources */,
@@ -1532,6 +1557,7 @@
 				EC436BFE1ADCBEB9001854F8 /* ConfirmPayViewController.m in Sources */,
 				ECE273431ACF7E8D00F126B5 /* Utils.m in Sources */,
 				ECE273271ACF7E2D00F126B5 /* INSTwitterPullToRefresh.m in Sources */,
+				ECDF7F0A1B01E6A0005AF75A /* CustomAds.m in Sources */,
 				ECE2732B1ACF7E2D00F126B5 /* INSLappsyPullToRefresh.m in Sources */,
 				EC2FA9881ACE9A1E00D9DF94 /* GameTV.xcdatamodeld in Sources */,
 				ECF422711AE0C96200377B7C /* ApplicationDetailViewController.m in Sources */,
@@ -1699,14 +1725,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DITECH TECHNOLOGY AND MEDIA JOINT STOCK COMPANY";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GAME TV VIET NAM MEDIA JOINT STOCK COMPANY (QFWKPC25V6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "GameTV/Application/GameTV-Prefix.pch";
 				INFOPLIST_FILE = GameTV/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e208ce40-9206-4071-8f5b-55661e15953a";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "1f8e45f3-5fde-40c4-aad6-4e6cae162448";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1716,14 +1747,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: DITECH TECHNOLOGY AND MEDIA JOINT STOCK COMPANY";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GAME TV VIET NAM MEDIA JOINT STOCK COMPANY (QFWKPC25V6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "GameTV/Application/GameTV-Prefix.pch";
 				INFOPLIST_FILE = GameTV/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e208ce40-9206-4071-8f5b-55661e15953a";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "1f8e45f3-5fde-40c4-aad6-4e6cae162448";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

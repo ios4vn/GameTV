@@ -13,11 +13,17 @@
 #import "LeftViewController.h"
 #import "CustomTabbar.h"
 #import "BSVideoDetailController.h"
+#import "StandarViewController.h"
+
+@import GoogleMobileAds;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, strong) AppUser *user;
+@property (nonatomic, strong) NSString *adUnitID;
+@property (strong, nonatomic) NSArray *customAds;
+@property (assign, nonatomic) AdsType adsType;
 @property (nonatomic, strong) IIViewDeckController* deckController;
 @property (nonatomic, strong) LeftViewController *leftViewController;
 @property (strong, nonatomic) UINavigationController *liveController;

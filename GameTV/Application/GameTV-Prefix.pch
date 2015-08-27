@@ -27,6 +27,7 @@
 #define kLiveUrl        @"http://live.vietid.org/app.php"
 #define kAppId          @"gtv_mobile"
 #define kApiKey         @"anAQjHU9JHYA4mzK"
+#define kAdmobKey       @"ca-app-pub-7450303305440385/9686523157"
 #endif
 
 

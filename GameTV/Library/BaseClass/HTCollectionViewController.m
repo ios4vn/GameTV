@@ -49,14 +49,7 @@
         dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
             
             [self.collectionView performBatchUpdates:^{
-//                self.numberOfRows += 15;
-//                NSMutableArray* newIndexPaths = [NSMutableArray new];
-//                
-//                for(NSInteger i = self.numberOfRows - 15; i < self.numberOfRows; i++) {
-//                    NSIndexPath* indexPath = [NSIndexPath indexPathForRow:i inSection:0];
-//                    [newIndexPaths addObject:indexPath];
-//                }
-//                [self.collectionView insertItemsAtIndexPaths:newIndexPaths];
+
                 
             } completion:nil];
             

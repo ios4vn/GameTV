@@ -30,6 +30,17 @@
     
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    if (SharedAppDelegate.adsType != AdsTypeUnknown) {
+        [self showAds:SharedAppDelegate.adsType];
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can bl;le recreated.
@@ -398,6 +409,32 @@
 
 -(void)back{
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)showAds:(AdsType)type{
+    if (type == AdsTypeGoogle) {
+        self.bannerGoogleAds = [[GADBannerView alloc] initWithFrame:CGRectMake(0, 0, _bannerView.frame.size.width, _bannerView.frame.size.height)];
+        self.bannerGoogleAds.adUnitID = SharedAppDelegate.adUnitID;
+        self.bannerGoogleAds.rootViewController = self;
+        GADRequest *request = [GADRequest request];
+        [self.bannerGoogleAds loadRequest:request];
+        [self.bannerView addSubview:self.bannerGoogleAds];
+    }
+    else{
+        NSArray *xibArray = [[NSBundle mainBundle] loadNibNamed:@"CustomAds" owner:nil options:nil];
+        for (id xibObject in xibArray) {
+            //Loop through array, check for the object we're interested in.
+            if ([xibObject isKindOfClass:[CustomAds class]]) {
+                self.bannerCustomAds = (CustomAds *)xibObject;
+
+            }
+        }
+
+        self.bannerCustomAds.frame = CGRectMake(0, 0, _bannerView.frame.size.width, _bannerView.frame.size.height);
+        [self.bannerView addSubview:self.bannerCustomAds];
+        self.bannerCustomAds.ads = SharedAppDelegate.customAds;
+        
+    }
 }
 
 @end

@@ -32,6 +32,7 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    [self.tableView reloadData];
     if (SharedAppDelegate.user.isLogin) {
         _lblInfo.text = [NSString stringWithFormat:@"ID:%d\nUser:%@",SharedAppDelegate.user.uid,SharedAppDelegate.user.username];
     }
