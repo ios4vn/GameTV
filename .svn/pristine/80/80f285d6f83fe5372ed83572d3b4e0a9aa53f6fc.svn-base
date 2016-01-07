@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5874eb64-89be-6742-9c27-e7c02bd79401++179",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5874eb64-89be-6742-9c27-e7c02bd79401++179" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5874eb64-89be-6742-9c27-e7c02bd79401++5586" : 0,
+    "5874eb64-89be-6742-9c27-e7c02bd79401++179" : 0,
+    "5874eb64-89be-6742-9c27-e7c02bd79401++3750" : 0,
+    "5874eb64-89be-6742-9c27-e7c02bd79401++9543" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88DC6C1E-67EC-4BE4-A562-9552B3999834",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5874eb64-89be-6742-9c27-e7c02bd79401++5586" : "Vui1\/Source\/Vui1SVN",
+    "5874eb64-89be-6742-9c27-e7c02bd79401++179" : "GameTV_SVN",
+    "5874eb64-89be-6742-9c27-e7c02bd79401++3750" : "",
+    "5874eb64-89be-6742-9c27-e7c02bd79401++9543" : "Users\/123\/Desktop\/nhacdj\/Nhac_DJ_SVN"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GameTV",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GameTV.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/QN-Blue-Gao\/GameTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5874eb64-89be-6742-9c27-e7c02bd79401++179"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/14.160.25.214:8444\/svn\/Mobisport.vn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5874eb64-89be-6742-9c27-e7c02bd79401++179"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/14.160.25.214:8444\/svn\/Mobisport.vn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5874eb64-89be-6742-9c27-e7c02bd79401++3750"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/14.160.25.214:8444\/svn\/Mobisport.vn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5874eb64-89be-6742-9c27-e7c02bd79401++5586"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/14.160.25.214:8444\/svn\/Mobisport.vn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5874eb64-89be-6742-9c27-e7c02bd79401++9543"
+    }
+  ]
+}

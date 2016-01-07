@@ -1,0 +1,1 @@
+MJPOPUPVIEWCONTROLLER_OTHER_LDFLAGS = -framework "QuartzCore"

@@ -14,20 +14,14 @@
 		EC1F18021AD38C2500FB431A /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1F18001AD38C2500FB431A /* MenuCell.xib */; };
 		EC1F18061AD3901E00FB431A /* HeaderMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F18051AD3901E00FB431A /* HeaderMenu.m */; };
 		EC1F18081AD3902A00FB431A /* HeaderMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1F18071AD3902A00FB431A /* HeaderMenu.xib */; };
-		EC1F217A1AD9155B006CF089 /* minimize-button.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F21781AD9155B006CF089 /* minimize-button.png */; };
-		EC1F217B1AD9155B006CF089 /* minimize-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F21791AD9155B006CF089 /* minimize-button@2x.png */; };
 		EC2FA9821ACE9A1E00D9DF94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2FA9811ACE9A1E00D9DF94 /* main.m */; };
 		EC2FA9851ACE9A1E00D9DF94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2FA9841ACE9A1E00D9DF94 /* AppDelegate.m */; };
 		EC2FA9881ACE9A1E00D9DF94 /* GameTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2FA9861ACE9A1E00D9DF94 /* GameTV.xcdatamodeld */; };
 		EC2FA9901ACE9A1E00D9DF94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2FA98F1ACE9A1E00D9DF94 /* Images.xcassets */; };
 		EC2FA99F1ACE9A1E00D9DF94 /* GameTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2FA99E1ACE9A1E00D9DF94 /* GameTVTests.m */; };
-		EC436B6D1ADBA578001854F8 /* ShowPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC436B6B1ADBA578001854F8 /* ShowPageCell.m */; };
-		EC436B6E1ADBA578001854F8 /* ShowPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC436B6C1ADBA578001854F8 /* ShowPageCell.xib */; };
 		EC436B721ADBAEB0001854F8 /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC436B701ADBAEB0001854F8 /* ScheduleCell.m */; };
 		EC436B731ADBAEB0001854F8 /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC436B711ADBAEB0001854F8 /* ScheduleCell.xib */; };
 		EC436B771ADBB196001854F8 /* RTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC436B761ADBB196001854F8 /* RTLabel.m */; };
-		EC436B7B1ADBB995001854F8 /* EpisodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC436B791ADBB995001854F8 /* EpisodeCell.m */; };
-		EC436B7C1ADBB995001854F8 /* EpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC436B7A1ADBB995001854F8 /* EpisodeCell.xib */; };
 		EC436B801ADBBA86001854F8 /* SetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC436B7E1ADBBA86001854F8 /* SetCell.m */; };
 		EC436B811ADBBA86001854F8 /* SetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC436B7F1ADBBA86001854F8 /* SetCell.xib */; };
 		EC436BE71ADCBEB9001854F8 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC436BC21ADCBEB9001854F8 /* ForgotPasswordViewController.m */; };
@@ -57,6 +51,12 @@
 		EC436BFF1ADCBEB9001854F8 /* ConfirmPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC436BE61ADCBEB9001854F8 /* ConfirmPayViewController.xib */; };
 		EC436C031ADCBF96001854F8 /* ServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC436C011ADCBF96001854F8 /* ServiceCell.m */; };
 		EC436C041ADCBF96001854F8 /* ServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC436C021ADCBF96001854F8 /* ServiceCell.xib */; };
+		EC6E35351BFADDBA00DA110F /* ShowPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6E35331BFADDBA00DA110F /* ShowPageCell.m */; };
+		EC6E35361BFADDBA00DA110F /* ShowPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6E35341BFADDBA00DA110F /* ShowPageCell.xib */; };
+		EC6E353A1BFADDFE00DA110F /* EpisodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6E35381BFADDFE00DA110F /* EpisodeCell.m */; };
+		EC6E353B1BFADDFE00DA110F /* EpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6E35391BFADDFE00DA110F /* EpisodeCell.xib */; };
+		EC6E353E1BFADEE100DA110F /* minimize-button.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6E353C1BFADEE100DA110F /* minimize-button.png */; };
+		EC6E353F1BFADEE100DA110F /* minimize-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6E353D1BFADEE100DA110F /* minimize-button@2x.png */; };
 		EC90FB501ADCC833007528BC /* input_form.png in Resources */ = {isa = PBXBuildFile; fileRef = EC90FB441ADCC833007528BC /* input_form.png */; };
 		EC90FB511ADCC833007528BC /* input_form@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC90FB451ADCC833007528BC /* input_form@2x.png */; };
 		EC90FB521ADCC833007528BC /* login_btn_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EC90FB461ADCC833007528BC /* login_btn_orange.png */; };
@@ -73,6 +73,10 @@
 		ECB4A6B01AD50FFD005CEB2E /* BSVideoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A6AF1AD50FFD005CEB2E /* BSVideoDetailController.m */; };
 		ECB4A6B41AD510C9005CEB2E /* BSVideoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB4A6B31AD510C9005CEB2E /* BSVideoDetailController.xib */; };
 		ECB4A6B81AD51BF2005CEB2E /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB4A6B71AD51BF2005CEB2E /* Video.m */; };
+		ECCB1BCB1C17D7C500C36A8C /* btn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCB1BC91C17D7C500C36A8C /* btn_play.png */; };
+		ECCB1BCC1C17D7C500C36A8C /* btn_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCB1BCA1C17D7C500C36A8C /* btn_play@2x.png */; };
+		ECCB1BCF1C17D7D400C36A8C /* btn_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCB1BCD1C17D7D400C36A8C /* btn_pause.png */; };
+		ECCB1BD01C17D7D400C36A8C /* btn_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCB1BCE1C17D7D400C36A8C /* btn_pause@2x.png */; };
 		ECCBF80F1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCBF80D1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png */; };
 		ECCBF8101AE8A81A004A6A15 /* btn_dangnhapfb.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCBF80E1AE8A81A004A6A15 /* btn_dangnhapfb.png */; };
 		ECCF3DE51AD7BDB800E9FE9B /* MyPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCF3DE41AD7BDB800E9FE9B /* MyPlayerLayerView.m */; };
@@ -232,6 +236,8 @@
 		ECE84DDF1AD3E0F7007064CE /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE84DDD1AD3E0F7007064CE /* ScheduleViewController.xib */; };
 		ECE84DE31AD3E116007064CE /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE84DE11AD3E116007064CE /* LiveViewController.m */; };
 		ECE84DE41AD3E116007064CE /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE84DE21AD3E116007064CE /* LiveViewController.xib */; };
+		ECE955481BE0BB1C00ED5ECD /* BSVideoDetailController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE955471BE0BB1C00ED5ECD /* BSVideoDetailController~ipad.xib */; };
+		ECE9554A1BE0BF4000ED5ECD /* HeaderMenu~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE955491BE0BF4000ED5ECD /* HeaderMenu~ipad.xib */; };
 		ECF422661AE0C6A600377B7C /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF422641AE0C6A600377B7C /* InfoViewController.m */; };
 		ECF422671AE0C6A600377B7C /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECF422651AE0C6A600377B7C /* InfoViewController.xib */; };
 		ECF4226F1AE0C96200377B7C /* ApplicationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4226A1AE0C96200377B7C /* ApplicationsViewController.m */; };
@@ -271,8 +277,6 @@
 		EC1F18041AD3901E00FB431A /* HeaderMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderMenu.h; sourceTree = "<group>"; };
 		EC1F18051AD3901E00FB431A /* HeaderMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderMenu.m; sourceTree = "<group>"; };
 		EC1F18071AD3902A00FB431A /* HeaderMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderMenu.xib; sourceTree = "<group>"; };
-		EC1F21781AD9155B006CF089 /* minimize-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "minimize-button.png"; path = "../../../../../../../../../../Users/123/Desktop/nhacdj/Nhac_DJ_SVN/FanClub/minimize-button.png"; sourceTree = "<group>"; };
-		EC1F21791AD9155B006CF089 /* minimize-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "minimize-button@2x.png"; path = "../../../../../../../../../../Users/123/Desktop/nhacdj/Nhac_DJ_SVN/FanClub/minimize-button@2x.png"; sourceTree = "<group>"; };
 		EC2FA97C1ACE9A1E00D9DF94 /* GameTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2FA9801ACE9A1E00D9DF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC2FA9811ACE9A1E00D9DF94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -283,17 +287,11 @@
 		EC2FA9981ACE9A1E00D9DF94 /* GameTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2FA99D1ACE9A1E00D9DF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC2FA99E1ACE9A1E00D9DF94 /* GameTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameTVTests.m; sourceTree = "<group>"; };
-		EC436B6A1ADBA578001854F8 /* ShowPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowPageCell.h; path = "../../../../../../../../Downloads/WebViewInTableViewCell-2/WebViewInTableViewCell/ShowPageCell.h"; sourceTree = "<group>"; };
-		EC436B6B1ADBA578001854F8 /* ShowPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowPageCell.m; path = "../../../../../../../../Downloads/WebViewInTableViewCell-2/WebViewInTableViewCell/ShowPageCell.m"; sourceTree = "<group>"; };
-		EC436B6C1ADBA578001854F8 /* ShowPageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShowPageCell.xib; path = "../../../../../../../../Downloads/WebViewInTableViewCell-2/WebViewInTableViewCell/ShowPageCell.xib"; sourceTree = "<group>"; };
 		EC436B6F1ADBAEB0001854F8 /* ScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleCell.h; sourceTree = "<group>"; };
 		EC436B701ADBAEB0001854F8 /* ScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleCell.m; sourceTree = "<group>"; };
 		EC436B711ADBAEB0001854F8 /* ScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleCell.xib; sourceTree = "<group>"; };
 		EC436B751ADBB196001854F8 /* RTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLabel.h; sourceTree = "<group>"; };
 		EC436B761ADBB196001854F8 /* RTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLabel.m; sourceTree = "<group>"; };
-		EC436B781ADBB995001854F8 /* EpisodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EpisodeCell.h; path = ../../../../../../Vui1/Source/Vui1SVN/Vui1/EpisodeCell.h; sourceTree = "<group>"; };
-		EC436B791ADBB995001854F8 /* EpisodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EpisodeCell.m; path = ../../../../../../Vui1/Source/Vui1SVN/Vui1/EpisodeCell.m; sourceTree = "<group>"; };
-		EC436B7A1ADBB995001854F8 /* EpisodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EpisodeCell.xib; path = ../../../../../../Vui1/Source/Vui1SVN/Vui1/EpisodeCell.xib; sourceTree = "<group>"; };
 		EC436B7D1ADBBA86001854F8 /* SetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCell.h; sourceTree = "<group>"; };
 		EC436B7E1ADBBA86001854F8 /* SetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCell.m; sourceTree = "<group>"; };
 		EC436B7F1ADBBA86001854F8 /* SetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetCell.xib; sourceTree = "<group>"; };
@@ -338,6 +336,14 @@
 		EC436C001ADCBF96001854F8 /* ServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCell.h; sourceTree = "<group>"; };
 		EC436C011ADCBF96001854F8 /* ServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCell.m; sourceTree = "<group>"; };
 		EC436C021ADCBF96001854F8 /* ServiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceCell.xib; sourceTree = "<group>"; };
+		EC6E35321BFADDBA00DA110F /* ShowPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPageCell.h; sourceTree = "<group>"; };
+		EC6E35331BFADDBA00DA110F /* ShowPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPageCell.m; sourceTree = "<group>"; };
+		EC6E35341BFADDBA00DA110F /* ShowPageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPageCell.xib; sourceTree = "<group>"; };
+		EC6E35371BFADDFE00DA110F /* EpisodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodeCell.h; sourceTree = "<group>"; };
+		EC6E35381BFADDFE00DA110F /* EpisodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpisodeCell.m; sourceTree = "<group>"; };
+		EC6E35391BFADDFE00DA110F /* EpisodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeCell.xib; sourceTree = "<group>"; };
+		EC6E353C1BFADEE100DA110F /* minimize-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button.png"; sourceTree = "<group>"; };
+		EC6E353D1BFADEE100DA110F /* minimize-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button@2x.png"; sourceTree = "<group>"; };
 		EC90FB441ADCC833007528BC /* input_form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input_form.png; sourceTree = "<group>"; };
 		EC90FB451ADCC833007528BC /* input_form@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input_form@2x.png"; sourceTree = "<group>"; };
 		EC90FB461ADCC833007528BC /* login_btn_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_btn_orange.png; sourceTree = "<group>"; };
@@ -357,6 +363,10 @@
 		ECB4A6B31AD510C9005CEB2E /* BSVideoDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSVideoDetailController.xib; sourceTree = "<group>"; };
 		ECB4A6B61AD51BF2005CEB2E /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		ECB4A6B71AD51BF2005CEB2E /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		ECCB1BC91C17D7C500C36A8C /* btn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_play.png; sourceTree = "<group>"; };
+		ECCB1BCA1C17D7C500C36A8C /* btn_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_play@2x.png"; sourceTree = "<group>"; };
+		ECCB1BCD1C17D7D400C36A8C /* btn_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pause.png; sourceTree = "<group>"; };
+		ECCB1BCE1C17D7D400C36A8C /* btn_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_pause@2x.png"; sourceTree = "<group>"; };
 		ECCBF80D1AE8A81A004A6A15 /* btn_dangnhapfb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_dangnhapfb@2x.png"; sourceTree = "<group>"; };
 		ECCBF80E1AE8A81A004A6A15 /* btn_dangnhapfb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_dangnhapfb.png; sourceTree = "<group>"; };
 		ECCF3DE31AD7BDB800E9FE9B /* MyPlayerLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayerLayerView.h; sourceTree = "<group>"; };
@@ -552,6 +562,8 @@
 		ECE84DE01AD3E116007064CE /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
 		ECE84DE11AD3E116007064CE /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
 		ECE84DE21AD3E116007064CE /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		ECE955471BE0BB1C00ED5ECD /* BSVideoDetailController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BSVideoDetailController~ipad.xib"; sourceTree = "<group>"; };
+		ECE955491BE0BF4000ED5ECD /* HeaderMenu~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HeaderMenu~ipad.xib"; sourceTree = "<group>"; };
 		ECF422631AE0C6A600377B7C /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		ECF422641AE0C6A600377B7C /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		ECF422651AE0C6A600377B7C /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
@@ -632,18 +644,18 @@
 		EC1F17FD1AD38BE100FB431A /* TabbleCell */ = {
 			isa = PBXGroup;
 			children = (
+				EC6E35321BFADDBA00DA110F /* ShowPageCell.h */,
+				EC6E35331BFADDBA00DA110F /* ShowPageCell.m */,
+				EC6E35341BFADDBA00DA110F /* ShowPageCell.xib */,
 				EC436C001ADCBF96001854F8 /* ServiceCell.h */,
 				EC436C011ADCBF96001854F8 /* ServiceCell.m */,
 				EC436C021ADCBF96001854F8 /* ServiceCell.xib */,
-				EC436B781ADBB995001854F8 /* EpisodeCell.h */,
-				EC436B791ADBB995001854F8 /* EpisodeCell.m */,
-				EC436B7A1ADBB995001854F8 /* EpisodeCell.xib */,
+				EC6E35371BFADDFE00DA110F /* EpisodeCell.h */,
+				EC6E35381BFADDFE00DA110F /* EpisodeCell.m */,
+				EC6E35391BFADDFE00DA110F /* EpisodeCell.xib */,
 				EC436B6F1ADBAEB0001854F8 /* ScheduleCell.h */,
 				EC436B701ADBAEB0001854F8 /* ScheduleCell.m */,
 				EC436B711ADBAEB0001854F8 /* ScheduleCell.xib */,
-				EC436B6A1ADBA578001854F8 /* ShowPageCell.h */,
-				EC436B6B1ADBA578001854F8 /* ShowPageCell.m */,
-				EC436B6C1ADBA578001854F8 /* ShowPageCell.xib */,
 				ECE84DCD1AD3CC6C007064CE /* BaseCell.h */,
 				ECE84DCE1AD3CC6C007064CE /* BaseCell.m */,
 				ECE84DC81AD3CBAE007064CE /* VideoCell.h */,
@@ -668,6 +680,7 @@
 				EC1F18041AD3901E00FB431A /* HeaderMenu.h */,
 				EC1F18051AD3901E00FB431A /* HeaderMenu.m */,
 				EC1F18071AD3902A00FB431A /* HeaderMenu.xib */,
+				ECE955491BE0BF4000ED5ECD /* HeaderMenu~ipad.xib */,
 			);
 			path = MenuHeader;
 			sourceTree = "<group>";
@@ -806,6 +819,7 @@
 				ECB4A6AE1AD50FFD005CEB2E /* BSVideoDetailController.h */,
 				ECB4A6AF1AD50FFD005CEB2E /* BSVideoDetailController.m */,
 				ECB4A6B31AD510C9005CEB2E /* BSVideoDetailController.xib */,
+				ECE955471BE0BB1C00ED5ECD /* BSVideoDetailController~ipad.xib */,
 			);
 			path = YoutubeDraggbleVideo;
 			sourceTree = "<group>";
@@ -1078,6 +1092,10 @@
 		ECE273741ACF88A300F126B5 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				ECCB1BCD1C17D7D400C36A8C /* btn_pause.png */,
+				ECCB1BCE1C17D7D400C36A8C /* btn_pause@2x.png */,
+				ECCB1BC91C17D7C500C36A8C /* btn_play.png */,
+				ECCB1BCA1C17D7C500C36A8C /* btn_play@2x.png */,
 				ECE273751ACF88B200F126B5 /* icon_fb.png */,
 				ECE273761ACF88B200F126B5 /* icon_fb@2x.png */,
 				ECE273771ACF88B200F126B5 /* icon_game_header_copy.png */,
@@ -1159,8 +1177,8 @@
 		ECE273EF1ACF88DC00F126B5 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				EC1F21781AD9155B006CF089 /* minimize-button.png */,
-				EC1F21791AD9155B006CF089 /* minimize-button@2x.png */,
+				EC6E353C1BFADEE100DA110F /* minimize-button.png */,
+				EC6E353D1BFADEE100DA110F /* minimize-button@2x.png */,
 				ECE273F01ACF88EA00F126B5 /* player_expan.png */,
 				ECE273F11ACF88EA00F126B5 /* player_expan@2x.png */,
 				ECE273F21ACF88EA00F126B5 /* player_full.png */,
@@ -1266,6 +1284,7 @@
 				EC2FA9791ACE9A1E00D9DF94 /* Frameworks */,
 				EC2FA97A1ACE9A1E00D9DF94 /* Resources */,
 				C97A5D373110DD7DFA2DC78D /* Copy Pods Resources */,
+				2724E3F239FFCEDC98F689A0 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1300,11 +1319,12 @@
 		EC2FA9741ACE9A1E00D9DF94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Hai Trieu";
 				TargetAttributes = {
 					EC2FA97B1ACE9A1E00D9DF94 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = FQJ88D2HMW;
 					};
 					EC2FA9971ACE9A1E00D9DF94 = {
 						CreatedOnToolsVersion = 6.2;
@@ -1337,6 +1357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE2738A1ACF88B200F126B5 /* icon_game_header@2x.png in Resources */,
+				ECCB1BCC1C17D7C500C36A8C /* btn_play@2x.png in Resources */,
 				EC436BF61ADCBEB9001854F8 /* ServiceViewController.xib in Resources */,
 				ECE274201ACF894E00F126B5 /* overlay@2x.png in Resources */,
 				EC1F17EE1AD23A6D00FB431A /* CustomTabbar.xib in Resources */,
@@ -1366,6 +1387,7 @@
 				ECE2736F1ACF889700F126B5 /* btn_orange@2x.png in Resources */,
 				EC436BEA1ADCBEB9001854F8 /* ResetPasswordViewController.xib in Resources */,
 				ECE273671ACF889700F126B5 /* avatar_user@2x.png in Resources */,
+				EC6E35361BFADDBA00DA110F /* ShowPageCell.xib in Resources */,
 				ECE274071ACF88EA00F126B5 /* player_progress@2x.png in Resources */,
 				ECE273861ACF88B200F126B5 /* icon_fb@2x.png in Resources */,
 				ECE273661ACF889700F126B5 /* avatar_user.png in Resources */,
@@ -1380,8 +1402,8 @@
 				ECE2741C1ACF894E00F126B5 /* like@2x.png in Resources */,
 				ECE2740C1ACF890000F126B5 /* logo_gray@2x.png in Resources */,
 				ECF422791AE0E40500377B7C /* CustomTabbar~ipad.xib in Resources */,
-				EC436B6E1ADBA578001854F8 /* ShowPageCell.xib in Resources */,
 				ECF422831AE102BF00377B7C /* user-anonymous-disabled.png in Resources */,
+				EC6E353F1BFADEE100DA110F /* minimize-button@2x.png in Resources */,
 				ECE2736B1ACF889700F126B5 /* box_gray@2x.png in Resources */,
 				ECE84DD81AD3DC06007064CE /* btn_back@2x.png in Resources */,
 				EC436BE81ADCBEB9001854F8 /* ForgotPasswordViewController.xib in Resources */,
@@ -1397,7 +1419,6 @@
 				ECE273CA1ACF88C600F126B5 /* sidebar_gopy.png in Resources */,
 				ECDFD8431ADF7706001DDA7F /* check@2x.png in Resources */,
 				ECE273D61ACF88C600F126B5 /* sidebar_phim.png in Resources */,
-				EC436B7C1ADBB995001854F8 /* EpisodeCell.xib in Resources */,
 				ECE2736E1ACF889700F126B5 /* btn_orange.png in Resources */,
 				EC436BF41ADCBEB9001854F8 /* ChangePasswordViewController.xib in Resources */,
 				ECE2741E1ACF894E00F126B5 /* liked@2x.png in Resources */,
@@ -1406,6 +1427,7 @@
 				EC436BEE1ADCBEB9001854F8 /* ValidViewController.xib in Resources */,
 				ECDFD8391ADF6437001DDA7F /* Clock@2x.png in Resources */,
 				ECE273CC1ACF88C600F126B5 /* sidebar_hl.png in Resources */,
+				ECCB1BCB1C17D7C500C36A8C /* btn_play.png in Resources */,
 				ECE84DE41AD3E116007064CE /* LiveViewController.xib in Resources */,
 				ECE84DCC1AD3CBAE007064CE /* VideoCell.xib in Resources */,
 				ECE273C91ACF88C600F126B5 /* sidebar_giftcode@2x.png in Resources */,
@@ -1419,12 +1441,12 @@
 				ECE273881ACF88B200F126B5 /* icon_game_header_copy@2x.png in Resources */,
 				ECF4227F1AE1001B00377B7C /* SearchViewController~ipad.xib in Resources */,
 				ECE274031ACF88EA00F126B5 /* player_play@2x.png in Resources */,
-				EC1F217B1AD9155B006CF089 /* minimize-button@2x.png in Resources */,
 				ECE274061ACF88EA00F126B5 /* player_progress.png in Resources */,
 				ECE273871ACF88B200F126B5 /* icon_game_header_copy.png in Resources */,
 				ECE273941ACF88B200F126B5 /* icon_view@2x.png in Resources */,
 				ECE273C51ACF88C600F126B5 /* sidebar_fifa@2x.png in Resources */,
 				ECCBF8101AE8A81A004A6A15 /* btn_dangnhapfb.png in Resources */,
+				ECCB1BD01C17D7D400C36A8C /* btn_pause@2x.png in Resources */,
 				ECDF7F0C1B01E6B3005AF75A /* CustomAds.xib in Resources */,
 				ECE273FC1ACF88EA00F126B5 /* player_expan.png in Resources */,
 				ECE273E71ACF88D200F126B5 /* tab_active.png in Resources */,
@@ -1432,6 +1454,7 @@
 				ECE273BD1ACF88C600F126B5 /* sidebar_bg@2x.png in Resources */,
 				EC436B811ADBBA86001854F8 /* SetCell.xib in Resources */,
 				ECE273DC1ACF88C600F126B5 /* sidebar_ungdung.png in Resources */,
+				EC6E353E1BFADEE100DA110F /* minimize-button.png in Resources */,
 				ECB4A6B41AD510C9005CEB2E /* BSVideoDetailController.xib in Resources */,
 				ECE273921ACF88B200F126B5 /* icon_mail@2x.png in Resources */,
 				EC90FB591ADCC833007528BC /* login_close@2x.png in Resources */,
@@ -1444,6 +1467,7 @@
 				ECE274191ACF894E00F126B5 /* header_ios.png in Resources */,
 				ECE273D01ACF88C600F126B5 /* sidebar_lol.png in Resources */,
 				ECE273D71ACF88C600F126B5 /* sidebar_phim@2x.png in Resources */,
+				ECE9554A1BE0BF4000ED5ECD /* HeaderMenu~ipad.xib in Resources */,
 				ECE273701ACF889700F126B5 /* btn_polygon.png in Resources */,
 				ECE273E91ACF88D200F126B5 /* tab_bar.png in Resources */,
 				ECE273D91ACF88C600F126B5 /* sidebar_tivshow@2x.png in Resources */,
@@ -1454,16 +1478,17 @@
 				ECE273901ACF88B200F126B5 /* icon_lichchieu@2x.png in Resources */,
 				ECE273D11ACF88C600F126B5 /* sidebar_lol@2x.png in Resources */,
 				ECE273051ACF7DDC00F126B5 /* AutoCompleteViewController.xib in Resources */,
+				ECCB1BCF1C17D7D400C36A8C /* btn_pause.png in Resources */,
 				ECE273CF1ACF88C600F126B5 /* sidebar_info@2x.png in Resources */,
 				ECE273ED1ACF88D200F126B5 /* time_black.png in Resources */,
 				EC436BF21ADCBEB9001854F8 /* LoginViewController.xib in Resources */,
 				ECE273CB1ACF88C600F126B5 /* sidebar_gopy@2x.png in Resources */,
 				EC90FB571ADCC833007528BC /* login_checkbox@2x.png in Resources */,
 				EC90FB511ADCC833007528BC /* input_form@2x.png in Resources */,
+				ECE955481BE0BB1C00ED5ECD /* BSVideoDetailController~ipad.xib in Resources */,
 				ECDFD8421ADF7706001DDA7F /* check.png in Resources */,
 				EC90FB581ADCC833007528BC /* login_close.png in Resources */,
 				ECE273D21ACF88C600F126B5 /* sidebar_music.png in Resources */,
-				EC1F217A1AD9155B006CF089 /* minimize-button.png in Resources */,
 				ECE273931ACF88B200F126B5 /* icon_view.png in Resources */,
 				ECE273FF1ACF88EA00F126B5 /* player_full@2x.png in Resources */,
 				ECE273DA1ACF88C600F126B5 /* sidebar_truyen.png in Resources */,
@@ -1483,6 +1508,7 @@
 				EC90FB531ADCC833007528BC /* login_btn_orange@2x.png in Resources */,
 				ECE273C61ACF88C600F126B5 /* sidebar_funny.png in Resources */,
 				ECE273E81ACF88D200F126B5 /* tab_active@2x.png in Resources */,
+				EC6E353B1BFADDFE00DA110F /* EpisodeCell.xib in Resources */,
 				EC90FB521ADCC833007528BC /* login_btn_orange.png in Resources */,
 				EC90FB541ADCC833007528BC /* login_btn_white.png in Resources */,
 				EC436BF91ADCBEB9001854F8 /* EditInfoViewController.xib in Resources */,
@@ -1530,6 +1556,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2724E3F239FFCEDC98F689A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C97A5D373110DD7DFA2DC78D /* Copy Pods Resources */ = {
@@ -1597,7 +1638,6 @@
 				ECE2732C1ACF7E2D00F126B5 /* INSPinterestPullToRefresh.m in Sources */,
 				ECB4A6B01AD50FFD005CEB2E /* BSVideoDetailController.m in Sources */,
 				ECE2730D1ACF7E0300F126B5 /* IIWrapController.m in Sources */,
-				EC436B7B1ADBB995001854F8 /* EpisodeCell.m in Sources */,
 				ECB4A6B81AD51BF2005CEB2E /* Video.m in Sources */,
 				ECE272EB1ACF7DAE00F126B5 /* HomeViewController.m in Sources */,
 				EC436BF31ADCBEB9001854F8 /* ChangePasswordViewController.m in Sources */,
@@ -1605,18 +1645,19 @@
 				EC1F18011AD38C2500FB431A /* MenuCell.m in Sources */,
 				EC436BFA1ADCBEB9001854F8 /* ViewInfoViewController.m in Sources */,
 				ECF422661AE0C6A600377B7C /* InfoViewController.m in Sources */,
-				EC436B6D1ADBA578001854F8 /* ShowPageCell.m in Sources */,
 				ECE273461ACF7E8D00F126B5 /* NSMutableDictionary+UrlRequest.m in Sources */,
 				ECE272F41ACF7DC600F126B5 /* HTListViewController.m in Sources */,
 				EC436BF11ADCBEB9001854F8 /* LoginViewController.m in Sources */,
 				ECCF3DE81AD7BF0700E9FE9B /* SinglePlayer.m in Sources */,
 				EC436C031ADCBF96001854F8 /* ServiceCell.m in Sources */,
 				ECE272F51ACF7DC600F126B5 /* HTCollectionViewController.m in Sources */,
+				EC6E353A1BFADDFE00DA110F /* EpisodeCell.m in Sources */,
 				EC1F17EC1AD2397800FB431A /* CustomTabbar.m in Sources */,
 				ECE273261ACF7E2D00F126B5 /* INSBaseViewController.m in Sources */,
 				ECE84DCB1AD3CBAE007064CE /* VideoCell.m in Sources */,
 				ECF422761AE0C96700377B7C /* ApplicationCell.m in Sources */,
 				EC436BF81ADCBEB9001854F8 /* EditInfoViewController.m in Sources */,
+				EC6E35351BFADDBA00DA110F /* ShowPageCell.m in Sources */,
 				ECCF3DE51AD7BDB800E9FE9B /* MyPlayerLayerView.m in Sources */,
 				EC2FA9821ACE9A1E00D9DF94 /* main.m in Sources */,
 				EC436BEB1ADCBEB9001854F8 /* AccountViewController.m in Sources */,
@@ -1663,6 +1704,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1725,7 +1767,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GAME TV VIET NAM MEDIA JOINT STOCK COMPANY (QFWKPC25V6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1734,10 +1777,11 @@
 				INFOPLIST_FILE = GameTV/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.gametv.gametvapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1f8e45f3-5fde-40c4-aad6-4e6cae162448";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1747,7 +1791,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GAME TV VIET NAM MEDIA JOINT STOCK COMPANY (QFWKPC25V6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1756,10 +1801,11 @@
 				INFOPLIST_FILE = GameTV/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.gametv.gametvapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1f8e45f3-5fde-40c4-aad6-4e6cae162448";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

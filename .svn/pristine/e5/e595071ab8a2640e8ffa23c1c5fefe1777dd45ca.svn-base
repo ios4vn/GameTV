@@ -1,0 +1,1 @@
+FACEBOOK_IOS_SDK_OTHER_LDFLAGS = -l"sqlite3.0" -framework "CoreLocation" -weak_framework "Accounts" -weak_framework "AdSupport" -weak_framework "Social"

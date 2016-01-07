@@ -1,0 +1,21 @@
+//
+//  SelectorController.h
+//  TabbedExample
+//
+//  Created by Tom Adriaenssen on 03/02/12.
+//  Copyright (c) 2012 Adriaenssen BVBA. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "HTListViewController.h"
+
+@interface LeftViewController : HTListViewController
+
+@property (nonatomic, weak) IBOutlet UIView *headerTableView;
+@property (nonatomic, weak) IBOutlet UILabel *lblInfo;
+@property (nonatomic, weak) IBOutlet UIImageView *imgAvatar;
+@property (nonatomic, weak) IBOutlet UIButton *btnLogin;
+
+-(IBAction)btnLoginPress:(id)sender;
+
+@end

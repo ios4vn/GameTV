@@ -4,132 +4,142 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-AFNetworking.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-APLExpandableCollectionView.xcscheme</key>
+		<key>APLExpandableCollectionView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-DACircularProgress.xcscheme</key>
+		<key>DACircularProgress.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-FMDB.xcscheme</key>
+		<key>FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Facebook-iOS-SDK.xcscheme</key>
+		<key>Facebook-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-INSPullToRefresh.xcscheme</key>
+		<key>INSPullToRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-IQDropDownTextField.xcscheme</key>
+		<key>IQDropDownTextField.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MBProgressHUD.xcscheme</key>
+		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MJPopupViewController.xcscheme</key>
+		<key>MJPopupViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MWPhotoBrowser.xcscheme</key>
+		<key>MWPhotoBrowser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MarqueeLabel.xcscheme</key>
+		<key>MarqueeLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-NSData+Base64.xcscheme</key>
+		<key>NSData+Base64.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-PSTCollectionView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-REComposeViewController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-SBJson.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-SDWebImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-ShareThis.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-TPKeyboardAvoiding.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-UAModalPanel.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-UIActionSheet+Blocks.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-UIActivityIndicator-for-SDWebImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-UIAlertView+Blocks.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-UITableView-NXEmptyView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-XCDYouTubeKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-cocoa-oauth.xcscheme</key>
+		<key>PSTCollectionView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>REComposeViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SBJson.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ShareThis.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UAModalPanel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIActionSheet+Blocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIActivityIndicator-for-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIAlertView+Blocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UITableView-NXEmptyView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XCDYouTubeKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cocoa-oauth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>iRate.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>iVersion.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -142,7 +152,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>16316D74BE49F0BE41C2B006B8AABDDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1873240809E5C045B1160A0E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A3155A1CE86FD415A2FA193545BAB2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,7 +172,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>250A43B4CA45048541BF60BC2DB4D7B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2602F3D0DAC534568B6AD7EEA0DD1959</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2682CC6B1731700F0A06AC03F9AA18C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>286D7A9B7C742D17B084B45D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28FE5A6B0CD8CBC8CBDB8A5A79075E67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -177,7 +217,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3B05906032A2B2D0ED2F0E16D10C03A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4769A33B3D60C539C2FFBE5EBF4E6DB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4789FD4DE592ED7DD01BE4853E09ECC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4DEED8328B3DDA93E4458A91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53967F58974E0E4D155AC3970AC62C02</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -197,7 +257,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>66C21C5F41AD02EFC85C989DFF367ECF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>68B46FB27E7758D2D5AF4362</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>699BD36A3532D7A98375259B638E1A75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -217,7 +287,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>7A569F9A191E856B163A2FFA923FEFC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C7540702ACBA54260E224B13ACD9AC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7D5D51C15B5FDBC4573ED1D64863432B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8397162B6AA339F6FFD83D6F89A532E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>83C6374FD8FA48F7EEBD0C93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>856F8E5ED0285F83B6CB70B13D0CA9F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -227,12 +322,47 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8B090755233C44E8E118A8DA48015C08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8CB544F063D678A20D9A9BD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>905DF06AD554358BBFE8DAB291818EB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>956DA1138B039C6D2C243BADDBA9780E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F12FB4A63E20F601CFB2E64A65B57C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AC58516C4D8B70DA571F3EF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE1842F4FDCC17B8B4CE3DD778823192</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0140FD0E021298C68A873E1BB9CD223</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0B2331CCFECDF4E2F9424DCDE936846</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -257,12 +387,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>D29CAB4E2CD51D07D0ED2FD3D537F144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DE907604A2323338A4203050</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>EBEB80F4FC1BCEB1343AAF5D13D2EB06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECE3D505F92790D834670ED4D58F85CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FAD1CE58D80E09072F0B7C92</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
