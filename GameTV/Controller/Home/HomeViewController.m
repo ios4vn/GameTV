@@ -45,6 +45,7 @@
 -(void)loadAds{
     NSString *urlRequest = [NSString stringWithFormat:@"%@getads",kDomain];
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [SharedAppDelegate initAdmobFull];
     [manager GET:urlRequest parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         NSArray *ads = [responseObject objectForKey:@"data"];

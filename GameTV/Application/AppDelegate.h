@@ -49,6 +49,7 @@
 - (void)showSecondControllerWithChannel:(Channel*)channel;
 -(void)showLogin;
 -(void)showInfo;
+-(void)initAdmobFull;
 
 @end
 

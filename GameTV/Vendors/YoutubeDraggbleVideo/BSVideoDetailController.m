@@ -834,7 +834,7 @@ NSString *kTimedMetadataKey	= @"currentItem.timedMetadata";
 {
     self.btnDown.hidden=TRUE;
     [self.txtViewGrowing resignFirstResponder];
-    CGFloat trueOffset = self.initialFirstViewFrame.size.height - 100;
+    CGFloat trueOffset = self.initialFirstViewFrame.size.height - 50;
     CGFloat xOffset = self.initialFirstViewFrame.size.width-160;
     //Use this offset to adjust the position of your view accordingly
     menuFrame.origin.y = trueOffset;

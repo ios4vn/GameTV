@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6F538B98CAFAD3C2961B6B59'
+               BlueprintIdentifier = '1F15F4A5765F9A83E7CE3EC9'
                BlueprintName = 'UAModalPanel'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libUAModalPanel.a'>

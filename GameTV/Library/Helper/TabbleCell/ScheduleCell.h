@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 //#import "RTLabel.h"
 @interface ScheduleCell : UITableViewCell
-@property (nonatomic, strong) IBOutlet UIImageView *imgThumbnail;
+@property (nonatomic, strong) IBOutlet UIImageView *imgHomeThumbnail;
+@property (nonatomic, strong) IBOutlet UILabel *lblHomeName;
+@property (nonatomic, strong) IBOutlet UIImageView *imgAwayThumbnail;
+@property (nonatomic, strong) IBOutlet UILabel *lblAwayName;
 @property (nonatomic, strong) IBOutlet UIImageView *imgBien;
 @property (nonatomic, strong) IBOutlet UIImageView *imgTime;
-@property (nonatomic, strong) IBOutlet UILabel *lblName;
 @property (nonatomic, strong) IBOutlet UILabel *lblTime;
 /*@property (nonatomic, strong) RTLabel *rtLabel;
 + (RTLabel*)textLabel;*/

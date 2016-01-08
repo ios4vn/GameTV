@@ -30,7 +30,7 @@ PODS:
   - FMDB/common (2.5)
   - FMDB/standard (2.5):
     - FMDB/common
-  - Google-Mobile-Ads-SDK (7.5.2)
+  - Google-Mobile-Ads-SDK (7.6.0)
   - INSPullToRefresh (1.0.4)
   - IQDropDownTextField (1.0.4.1)
   - iRate (1.11.4)
@@ -68,7 +68,7 @@ DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - APLExpandableCollectionView
   - FMDB (~> 2.2)
-  - Google-Mobile-Ads-SDK (~> 7.5.2)
+  - Google-Mobile-Ads-SDK (~> 7.6.0)
   - INSPullToRefresh
   - IQDropDownTextField (~> 1.0.0)
   - iRate (~> 1.11.4)
@@ -95,7 +95,7 @@ SPEC CHECKSUMS:
   DACircularProgress: 0f92b77239d5f3c612fc66185e2998391ac8e054
   Facebook-iOS-SDK: 9dd77ef7b5302f8c0ca2a9f47bd8f56464b25389
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
-  Google-Mobile-Ads-SDK: 24a8ddfc0bcfec281960c5d88f75327df0d86b00
+  Google-Mobile-Ads-SDK: 0290020329c61183c4685304264b73382bc49fb4
   INSPullToRefresh: 735c155a7cf411e7e8988c06020f742c65f1ecd6
   IQDropDownTextField: 4e6fc6dbfd46a922fbc3fb76ac855d05ccfdc962
   iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7

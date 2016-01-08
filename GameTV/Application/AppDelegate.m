@@ -29,48 +29,16 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.leftViewController = [[LeftViewController alloc] initWithNibName:@"LeftViewController" bundle:nil];
     [iVersion sharedInstance].applicationBundleID = @"com.gametv.apps";
-//    [iVersion sharedInstance].remoteVersionsPlistURL = @"http://ios4vn.com/iVersion/com.gametv.apps.plist";
-//    
-//    [iRate sharedInstance].applicationBundleID = @"com.gametv.apps";
-//    [iRate sharedInstance].onlyPromptIfLatestVersion = NO;
-//    [iRate sharedInstance].previewMode = YES;
-    
     self.homeController = [[UINavigationController alloc] initWithRootViewController:[[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil]];
     
     _deckController =  [[IIViewDeckController alloc] initWithCenterViewController:self.homeController  leftViewController:self.leftViewController];
-//    _deckController.leftSize = self.window.frame.size.width/16*3;
     _deckController.leftSize = self.window.frame.size.width - 260;
     _user = [[AppUser alloc] init];
     _deckController.panningMode =  IIViewDeckNavigationBarOrOpenCenterPanning;
     _deckController.centerhiddenInteractivity =  IIViewDeckCenterHiddenNotUserInteractiveWithTapToClose;
     self.window.rootViewController = _deckController;
     [self.window makeKeyAndVisible];
-    [self initTabbar];
-    self.interstitial = [self createAndLoadInterstitial];
     return YES;
-}
-
-- (GADInterstitial *)createAndLoadInterstitial {
-    GADInterstitial *interstitial = [[GADInterstitial alloc] initWithAdUnitID:kAdmobFull];
-    interstitial.delegate = self;
-    [interstitial loadRequest:[GADRequest request]];
-    return interstitial;
-}
-
-
-#pragma mark GADInterstitialDelegate implementation
-
-- (void)interstitial:(GADInterstitial *)interstitial
-didFailToReceiveAdWithError:(GADRequestError *)error {
-    
-    NSLog(@"interstitialDidFailToReceiveAdWithError: %@", [error localizedDescription]);
-    
-}
-
-- (void)interstitialDidDismissScreen:(GADInterstitial *)interstitial {
-    
-    self.interstitial = [self createAndLoadInterstitial];
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -265,10 +233,11 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
     if (UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))
         [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger: UIInterfaceOrientationPortrait] forKey:@"orientation"];
     
-    [[Utils shareInstance] showLoadingView];
+//    [[Utils shareInstance] showLoadingView];
     self.videoDetailViewController = [[BSVideoDetailController alloc] initWithNibName:@"BSVideoDetailController" bundle:nil];
     self.videoDetailViewController.videoId = videoId;
-    [self showSecondController];
+    [self.interstitial presentFromRootViewController:SharedAppDelegate.window.rootViewController];
+//    [self showSecondController];
 }
 
 - (void)showSecondControllerWithChannel:(Channel*)channel{
@@ -278,8 +247,8 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
     }
     if (UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))
         [[UIDevice currentDevice] setValue:[NSNumber numberWithInteger: UIInterfaceOrientationPortrait] forKey:@"orientation"];
-    
-    [[Utils shareInstance] showLoadingView];
+//    
+//    [[Utils shareInstance] showLoadingView];
     self.videoDetailViewController = [[BSVideoDetailController alloc] initWithNibName:@"BSVideoDetailController" bundle:nil];
     self.videoDetailViewController.channel = channel;
     [self showSecondController];
@@ -313,9 +282,6 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
 {
 //    int randNum = rand() % 4;
 //    NSLog(@"rand num is %d",randNum);
-    if (self.interstitial.isReady) {
-        [self.interstitial presentFromRootViewController:SharedAppDelegate.window.rootViewController];
-    }
     [self.videoDetailViewController removeView];
     self.videoDetailViewController=nil;
     
@@ -346,5 +312,42 @@ didFailToReceiveAdWithError:(GADRequestError *)error {
     
 }
 
+
+#pragma mark Good Admob
+
+- (void)initAdmobFull {
+    self.interstitial = [self createAndLoadInterstitial];
+}
+
+- (void)showAdmobFull{
+    [self.interstitial presentFromRootViewController:SharedAppDelegate.window.rootViewController];
+}
+
+- (GADInterstitial *)createAndLoadInterstitial {
+    GADInterstitial *interstitial = [[GADInterstitial alloc] initWithAdUnitID:kAdmobFull];
+    interstitial.delegate = self;
+    GADRequest *request = [GADRequest request];
+    request.testDevices = @[ kGADSimulatorID ];
+    [interstitial loadRequest:request];
+    return interstitial;
+}
+
+
+#pragma mark GADInterstitialDelegate implementation
+
+- (void)interstitial:(GADInterstitial *)interstitial
+didFailToReceiveAdWithError:(GADRequestError *)error {
+    NSLog(@"interstitialDidFailToReceiveAdWithError: %@", [error localizedDescription]);
+    [self showSecondController];
+}
+
+- (void)interstitialDidDismissScreen:(GADInterstitial *)interstitial {
+    self.interstitial = [self createAndLoadInterstitial];
+    [self showSecondController];
+}
+
+- (void)interstitialDidReceiveAd:(GADInterstitial *)ad{
+    self.interstitial = ad;
+}
 
 @end

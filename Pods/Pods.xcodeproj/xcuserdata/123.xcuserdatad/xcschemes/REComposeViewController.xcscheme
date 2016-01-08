@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7E39D19D2101DB03709DC41C'
+               BlueprintIdentifier = 'DD3057E4827802157B80E22F'
                BlueprintName = 'REComposeViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libREComposeViewController.a'>

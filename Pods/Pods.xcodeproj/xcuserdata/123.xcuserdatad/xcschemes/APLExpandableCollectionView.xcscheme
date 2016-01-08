@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '230A6A3E72E8170DE0156DB3'
+               BlueprintIdentifier = '1312B757A6D626544CEF6A11'
                BlueprintName = 'APLExpandableCollectionView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libAPLExpandableCollectionView.a'>

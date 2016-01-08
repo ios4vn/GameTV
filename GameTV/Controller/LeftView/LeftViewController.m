@@ -12,6 +12,7 @@
 #import "MenuCell.h"
 #import "HeaderMenu.h"
 #import "InfoViewController.h"
+#import "ScheduleViewController.h"
 
 @implementation LeftViewController
 
@@ -104,7 +105,7 @@
     else{
         switch (indexPath.row) {
             case 0:
-                cell.tittle = @"Ứng dụng liên quan";
+                cell.tittle = @"Lịch trực tiếp";
                 cell.imageType = @"sidebar_ungdung";
                 break;
             case 1:
@@ -140,6 +141,12 @@
     }
     else{
         switch (indexPath.row) {
+            case 0:{
+                ScheduleViewController *infoVc = [[ScheduleViewController alloc] initWithNibName:@"ScheduleViewController" bundle:nil];
+                UINavigationController *navInfo = [[UINavigationController alloc] initWithRootViewController:infoVc];
+                self.viewDeckController.centerController = navInfo;
+            }
+                break;
             case 1:
             {
                 InfoViewController *infoVc = [[InfoViewController alloc] initWithNibName:@"InfoViewController" bundle:nil];

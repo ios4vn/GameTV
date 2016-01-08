@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <development version="6000" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftViewController">
             <connections>
                 <outlet property="btnLogin" destination="IaB-fw-EeQ" id="USM-TD-Ffq"/>
-                <outlet property="headerTableView" destination="5uP-PA-D3X" id="oCr-Cj-1Hx"/>
                 <outlet property="imgAvatar" destination="XOf-HB-wBg" id="zOb-Iv-beK"/>
                 <outlet property="lblInfo" destination="YLF-Wl-wEz" id="QYp-OQ-0TA"/>
                 <outlet property="tableView" destination="4" id="cFe-hW-DP9"/>
@@ -29,7 +28,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 </imageView>
                 <tableView opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="4">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <connections>
@@ -41,7 +40,7 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="RUU-bi-HFC" secondAttribute="bottom" id="5n0-Aa-7eB"/>
-                <constraint firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="49" id="A97-KF-XoY"/>
+                <constraint firstAttribute="bottom" secondItem="4" secondAttribute="bottom" id="A97-KF-XoY"/>
                 <constraint firstItem="4" firstAttribute="leading" secondItem="6lO-kR-Ylq" secondAttribute="leading" id="D04-9T-i0w"/>
                 <constraint firstAttribute="trailing" secondItem="RUU-bi-HFC" secondAttribute="trailing" id="K1O-uP-1ok"/>
                 <constraint firstItem="RUU-bi-HFC" firstAttribute="top" secondItem="6lO-kR-Ylq" secondAttribute="top" id="MQy-BD-5Pd"/>
@@ -49,7 +48,7 @@
                 <constraint firstItem="RUU-bi-HFC" firstAttribute="leading" secondItem="6lO-kR-Ylq" secondAttribute="leading" id="moL-X1-usV"/>
                 <constraint firstAttribute="trailing" secondItem="4" secondAttribute="trailing" id="wX4-B7-OUg"/>
             </constraints>
-            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <point key="canvasLocation" x="193" y="344"/>
         </view>
