@@ -15,6 +15,7 @@
 #import "iRate.h"
 #import "iVersion.h"
 #import "PushWizard.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 #define ANIMATION_TIME 0.4
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
@@ -29,8 +30,28 @@ static NSString *kAppKey = @"568f2d61a3fc273b2e8b48e5";
 
 @synthesize window = _window;
 
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    NSLog(@"open from others app %@",[url absoluteString]);
+    if ([[url absoluteString] containsString:@"1"]){
+        [self showSecondControllerWithVideoId:7789];
+    }
+    else {
+        [self showSecondControllerWithVideoId:7785];
+    }
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+
+    
     /*Push wizard begin*/
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0"))
     {
@@ -65,6 +86,16 @@ static NSString *kAppKey = @"568f2d61a3fc273b2e8b48e5";
     _deckController.centerhiddenInteractivity =  IIViewDeckCenterHiddenNotUserInteractiveWithTapToClose;
     self.window.rootViewController = _deckController;
     [self.window makeKeyAndVisible];
+    
+    [FBSDKAppLinkUtility fetchDeferredAppLink:^(NSURL *url, NSError *error) {
+        if (error) {
+            NSLog(@"Received error while fetching deferred app link %@", error);
+        }
+        if (url) {
+            [[UIApplication sharedApplication] openURL:url];
+        }
+    }];
+    
     return YES;
 }
 
@@ -94,6 +125,7 @@ static NSString *kAppKey = @"568f2d61a3fc273b2e8b48e5";
     // You can send a custom NSArray with max 100 NSString values for later filtering
     application.applicationIconBadgeNumber = 0;
     [PushWizard updateSessionWithValues:nil];
+    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {

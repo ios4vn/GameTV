@@ -21,16 +21,26 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb524787024217028</string>
+			</array>
+		</dict>
+		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb562669060511528</string>
+				<string>gametvapps</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.4</string>
+	<key>FacebookAppID</key>
+	<string>524787024217028</string>
+	<key>FacebookDisplayName</key>
+	<string>GameTV</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -42,10 +52,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleDefault</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
