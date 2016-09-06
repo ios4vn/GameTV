@@ -57,6 +57,7 @@
 		EC6E353B1BFADDFE00DA110F /* EpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6E35391BFADDFE00DA110F /* EpisodeCell.xib */; };
 		EC6E353E1BFADEE100DA110F /* minimize-button.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6E353C1BFADEE100DA110F /* minimize-button.png */; };
 		EC6E353F1BFADEE100DA110F /* minimize-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6E353D1BFADEE100DA110F /* minimize-button@2x.png */; };
+		EC85F5121C3F66A40009ACA1 /* libPushWizard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC85F5101C3F66A40009ACA1 /* libPushWizard.a */; };
 		EC90FB501ADCC833007528BC /* input_form.png in Resources */ = {isa = PBXBuildFile; fileRef = EC90FB441ADCC833007528BC /* input_form.png */; };
 		EC90FB511ADCC833007528BC /* input_form@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC90FB451ADCC833007528BC /* input_form@2x.png */; };
 		EC90FB521ADCC833007528BC /* login_btn_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EC90FB461ADCC833007528BC /* login_btn_orange.png */; };
@@ -344,6 +345,8 @@
 		EC6E35391BFADDFE00DA110F /* EpisodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeCell.xib; sourceTree = "<group>"; };
 		EC6E353C1BFADEE100DA110F /* minimize-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button.png"; sourceTree = "<group>"; };
 		EC6E353D1BFADEE100DA110F /* minimize-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button@2x.png"; sourceTree = "<group>"; };
+		EC85F5101C3F66A40009ACA1 /* libPushWizard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPushWizard.a; sourceTree = "<group>"; };
+		EC85F5111C3F66A40009ACA1 /* PushWizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushWizard.h; sourceTree = "<group>"; };
 		EC90FB441ADCC833007528BC /* input_form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input_form.png; sourceTree = "<group>"; };
 		EC90FB451ADCC833007528BC /* input_form@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input_form@2x.png"; sourceTree = "<group>"; };
 		EC90FB461ADCC833007528BC /* login_btn_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_btn_orange.png; sourceTree = "<group>"; };
@@ -591,6 +594,7 @@
 			files = (
 				ECCF3DEC1AD7BF6200E9FE9B /* AVFoundation.framework in Frameworks */,
 				ECCF3DEA1AD7BF2D00E9FE9B /* MediaPlayer.framework in Frameworks */,
+				EC85F5121C3F66A40009ACA1 /* libPushWizard.a in Frameworks */,
 				10DAB914F42B500E6B3860DB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -790,6 +794,15 @@
 			path = RTLabel;
 			sourceTree = "<group>";
 		};
+		EC85F50B1C3F65170009ACA1 /* Pushwizard */ = {
+			isa = PBXGroup;
+			children = (
+				EC85F5101C3F66A40009ACA1 /* libPushWizard.a */,
+				EC85F5111C3F66A40009ACA1 /* PushWizard.h */,
+			);
+			name = Pushwizard;
+			sourceTree = "<group>";
+		};
 		EC90FB431ADCC824007528BC /* Account */ = {
 			isa = PBXGroup;
 			children = (
@@ -887,6 +900,7 @@
 		ECE272DE1ACF7D1700F126B5 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				EC85F50B1C3F65170009ACA1 /* Pushwizard */,
 				EC436B741ADBB17A001854F8 /* RTLabel */,
 				ECB4A6AD1AD50FEA005CEB2E /* YoutubeDraggbleVideo */,
 				ECE273481ACF7FEC00F126B5 /* SVPullToRefresh */,
@@ -1324,7 +1338,12 @@
 				TargetAttributes = {
 					EC2FA97B1ACE9A1E00D9DF94 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = FQJ88D2HMW;
+						DevelopmentTeam = QFWKPC25V6;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					EC2FA9971ACE9A1E00D9DF94 = {
 						CreatedOnToolsVersion = 6.2;
@@ -1767,7 +1786,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hai Trieu Nguyen (CLRZY8RN92)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1778,10 +1797,14 @@
 				INFOPLIST_FILE = GameTV/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GameTV/Vendors",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gametv.apps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "695d6863-8e35-4a90-9741-f98daf6f8110";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1792,7 +1815,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hai Trieu Nguyen (CLRZY8RN92)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1803,10 +1826,14 @@
 				INFOPLIST_FILE = GameTV/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GameTV/Vendors",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gametv.apps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "695d6863-8e35-4a90-9741-f98daf6f8110";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

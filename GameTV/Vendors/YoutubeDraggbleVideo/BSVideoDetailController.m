@@ -169,9 +169,8 @@ NSString *kTimedMetadataKey	= @"currentItem.timedMetadata";
         if (video)
         {
             NSDictionary *streamURLs = video.streamURLs;
-            NSURL *url = streamURLs[XCDYouTubeVideoQualityHTTPLiveStreaming] ?: streamURLs[@(XCDYouTubeVideoQualityHD720)] ?: streamURLs[@(XCDYouTubeVideoQualityMedium360)] ?: streamURLs[@(XCDYouTubeVideoQualitySmall240)];
+            NSURL *url = streamURLs[XCDYouTubeVideoQualityHTTPLiveStreaming] ?: streamURLs[@(XCDYouTubeVideoQualityMedium360)] ?: streamURLs[@(XCDYouTubeVideoQualityHD720)] ?: streamURLs[@(XCDYouTubeVideoQualitySmall240)];
             [self playVideoWithURL:url];
-//            [self playVideoWithURL:[NSURL URLWithString:@"http://xosophattai.vn:8008/live/xspt1.sdp.m3u8"]];
         }
         else
         {
